@@ -159,7 +159,10 @@ border: 1px solid;}
 
 .contact h2{
 text-align: center;
+height 100%;
 }
+
+
 
   form {
 
@@ -188,6 +191,22 @@ fieldset {
   margin-right: 25%;
   background-color: rgba(0,0,0,0.05);
 
+}
+
+form#bonus {
+  float: left;
+  width: 33%;
+  margin-left: 40%;
+  margin-right: 33%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+#bonussubmit {
+  float: left;
+  width: 20%;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-bottom: 5%;
 }
 
 label {

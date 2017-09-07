@@ -24,13 +24,9 @@ nav li{
   list-style: none;
 }
 
-a:hover {
-  color: rgb(21, 58, 49);
-  text-decoration: overline;
-}
+
 
 a{
-  color:black;
   text-decoration: none;
 }
 
@@ -195,18 +191,27 @@ fieldset {
 
 form#bonus {
   float: left;
-  width: 33%;
-  margin-left: 40%;
-  margin-right: 33%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
   margin-top: 5%;
   margin-bottom: 2%;
 }
 #bonussubmit {
   float: left;
-  width: 20%;
-  margin-left: 33%;
-  margin-right: 33%;
-  margin-bottom: 5%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+}
+
+#display {
+float: left;
+width: 50%;
+text-align: center;
+margin-left: 25%;
+margin-right: 25%;
+padding: 20px;
 }
 
 label {

@@ -1,10 +1,4 @@
-function setActive() {
-  aObj = document.getElementById('nav').getElementsByTagName('a');
-  for(i=0;i<aObj.length;i++) {
-    if(document.location.href.indexOf(aObj[i].href)>=0) {
-      aObj[i].className='active';
-    }
-  }
+function showInput() {
+ var msg = document.getElementById("user_input").value + ' is mine too!';
+   document.getElementById('display').innerHTML = msg;
 }
-
-window.onload = setActive;

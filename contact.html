@@ -7,12 +7,11 @@
 <body>
   <header>
   <h1>KENDRA HIGGINS</h1>
-
-  <nav>
-  <strong> <li><a href="index.html">HOME</a></li>
-  <li><a href="about.html">ABOUT</a></li>
-    <li><a href="contact.html">CONTACT</a></li>
-  </strong></nav>
+<div class="topnav" id="myTopnav">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</div>
 
   </header>
 
@@ -49,6 +48,25 @@
  <input type="submit" name="submit" value="Submit" />
 </fieldset>
  </form>
+
+<div>
+<fieldset>
+  <form id='bonus'>
+
+    <label><b>What's Your Favorite Candy Bar?</b></label>
+    <input type="text" name="message" id="user_input">
+  </form>
+
+  <label></label> <strong><span id='display'></strong></span>
+  <input type="submit" id="bonussubmit" onclick="showInput();"><br/>
+</fieldset>
+
+</br>
+
+</div>
+
+
+<script src="scripts/main.js"></script>
 
 </body>
 
